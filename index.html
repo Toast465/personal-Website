@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>Resume Dashboard</h1>
+        </header>
+        <main>
+            <div class="card-container">
+                <div class="card" onclick="navigateTo('about.html')">
+                    <h3>About</h3>
+                    <p>Who am I? Click and get to know me.</p>
+                </div>
+                <div class="card" onclick="navigateTo('experience.html')">
+                    <h3>Experience</h3>
+                    <p>A summary of your job roles and responsibilities.</p>
+                </div>
+                <div class="card" onclick="navigateTo('skills.html')">
+                    <h3>Skills</h3>
+                    <p>A snapshot of your technical and soft skills.</p>
+                </div>
+                <div class="card" onclick="navigateTo('projects.html')">
+                    <h3>Projects</h3>
+                    <p>Highlighting key projects and accomplishments.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
