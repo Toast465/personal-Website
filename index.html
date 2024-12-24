@@ -3,33 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume Dashboard</title>
+    <title>Devendra Dahal - Resume Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="dashboard">
         <header>
-            <h1>Resume Dashboard</h1>
+            <h1>Devendra Dahal - Resume Portfolio</h1>
+            <div class="button-container">
+                <button data-scroll-to="profile">Profile</button>
+                <button data-scroll-to="skills">Skills</button>
+                <button data-scroll-to="experience">Experience</button>
+            </div>
         </header>
         <main>
-            <div class="card-container">
-                <div class="card" onclick="navigateTo('about.html')">
-                    <h3>About</h3>
-                    <p>Who am I? Click and get to know me.</p>
-                </div>
-                <div class="card" onclick="navigateTo('experience.html')">
-                    <h3>Experience</h3>
-                    <p>A summary of your job roles and responsibilities.</p>
-                </div>
-                <div class="card" onclick="navigateTo('skills.html')">
-                    <h3>Skills</h3>
-                    <p>A snapshot of your technical and soft skills.</p>
-                </div>
-                <div class="card" onclick="navigateTo('projects.html')">
-                    <h3>Projects</h3>
-                    <p>Highlighting key projects and accomplishments.</p>
-                </div>
-            </div>
+            <section id="profile">
+                <h2>Profile</h2>
+                <img src="image.jpg" alt="Devendra Dahal" class="profile-image">
+                <p><strong>Name:</strong> Devendra Dahal</p>
+                <p><strong>Email:</strong> devendrakdahal@gmail.com</p>
+                <p><strong>Phone:</strong> (801) 897-0890</p>
+                <p><strong>Location:</strong> Salt Lake City, Utah</p>
+                <p><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/devendra-dahal-33601b263/" target="_blank">View Profile</a></p>
+                <p>
+                    <strong>Summary:</strong>
+                     I am a data science student at the University of Utah with over five years of professional experience, specializing in data analysis, algorithms, and machine learning in the banking and finance industry.
+                </p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <h3>Languages</h3>
+                <ul>
+                    <li>English (Fluent)</li>
+                    <li>Nepali (Fluent)</li>
+                    <li>Hindi (Basic)</li>
+                </ul>
+                <h3>Data Science</h3>
+                <ul>
+                    <li>Data Analysis</li>
+                    <li>Data Visualization</li>
+                    <li>Machine Learning (Basic)</li>
+                    <li>Natural Language Processing</li>
+                    <li>Algorithms & Data Structures</li>
+                </ul>
+                <h3>Systems & Software</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Excel</li>
+                    <li>R</li>
+                    <li>Tableau</li>
+                    <li>Power BI</li>
+                </ul>
+                <h3>Communication & Leadership</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Team Leadership</li>
+                    <li>Cross-Functional Collaboration</li>
+                </ul>
+            </section>
+            
+            <section id="experience">
+                <h2>Experience</h2>
+                <h3>Web Data Scraping & Analytics Research Tool</h3>
+                <p><em>Data Wrangling Class, University of Utah</em> - May 2024</p>
+                <ul>
+                    <li>Leveraged Python and Pandas for data extraction and analysis of video game consumption impacts.</li>
+                </ul>
+                <h3>Data Visualization for Remote Patient Monitoring</h3>
+                <p><em>Data Visualization Class, University of Utah</em> - December 2024</p>
+                <ul>
+                    <li>Collaborated with a team of three to design interactive data visualizations using D3.js.</li>
+                    <li>Utilized data science techniques to collect, clean, and analyze remote medical monitoring data.</li>
+                    <li>Developed a storyboard-style visualization to aid doctors in identifying symptoms and potential issues before they occur, supporting better decision-making.</li>
+                </ul>
+                <h3>Program Coordinator – Tutoring</h3>
+                <p><em>GEAR UP, Utah Valley University</em> - Aug 2023 – Present</p>
+                <ul>
+                    <li>Conducted statistical analysis to identify trends in student performance and maintain databases.</li>
+                </ul>
+                <h3>Team Lead</h3>
+                <p><em>TRIO Upward Bound, University of Utah</em> - Jun 2022 – Aug 2023</p>
+                <ul>
+                    <li>Mentored high school students and led tailored academic programs.</li>
+                </ul>
+                <h3>Academic Support Specialist</h3>
+                <p><em>Promise South Salt Lake</em> - Aug 2018 – Jul 2019</p>
+                <ul>
+                    <li>Provided tutoring and creative teaching to high school students.</li>
+                </ul>
+            </section>
         </main>
     </div>
     <script src="script.js"></script>
